@@ -3,6 +3,18 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
 ul.navbar-nav {
 	float: right;
+}
+
+.banner {
+  background: url(../images/banner.png) no-repeat;
+  height: 400px;
+  overflow: hidden;
+}
+
+.jumbotron .container {
+	color: white;
+	text-shadow: 1px 1px 5px black;
 }
