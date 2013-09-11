@@ -9,8 +9,8 @@ ul.navbar-nav {
 }
 
 .banner {
-  background: url(../images/banner.png) no-repeat;
-  height: 400px;
+  background: url(../images/banner.jpg) no-repeat;
+  height: 320px;
   overflow: hidden;
 }
 
