@@ -1,7 +1,24 @@
+/* Fonts */
+@font-face {
+  font-family: 'AlexBrush';
+  src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lmsans10';
+  src: url('../fonts/lmsans10-regular.otf') format('opentype');
+}
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  background: url(../images/brickwall.png) repeat;
+  font-family: 'lmsans10', Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+}
+
+h1, h2, .navbar-brand {
+	font-family: 'AlexBrush', 'Brush Script MT', cursive;;
 }
 
 ul.navbar-nav {
