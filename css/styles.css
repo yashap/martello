@@ -17,8 +17,33 @@ body {
   font-family: 'lmsans10', Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
 }
 
+.fatPadding {
+  padding-top: 65px;
+}
+
+.container {
+  padding: 0 25px 0 25px;
+}
+
+.navbar {
+  background: #092921;
+  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(0,0,0)),
+    color-stop(1, rgb(18,61,50))
+  );
+}
+
 h1, h2, .navbar-brand {
-	font-family: 'AlexBrush', 'Brush Script MT', cursive;;
+	font-family: 'AlexBrush', 'Brush Script MT', cursive;
 }
 
 ul.navbar-nav {
@@ -35,4 +60,41 @@ ul.navbar-nav {
 .jumbotron .container {
 	color: white;
 	text-shadow: 1px 1px 5px black;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.smallCallout {
+  height: 400px;
+  background: url(../images/kids.jpg) no-repeat;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0 0 5px black;
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.jumbotron .container h1 {
+  font-size: 2em;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.jumbotron .container h1 {
+  font-size: 2.5em;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.jumbotron .container h1 {
+  font-size: 3em;
+}
 }
