@@ -43,11 +43,11 @@ body {
 }
 
 h1, h2, .navbar-brand {
-	font-family: 'AlexBrush', 'Brush Script MT', cursive;
+  font-family: 'AlexBrush', 'Brush Script MT', cursive;
 }
 
 ul.navbar-nav {
-	float: right;
+  float: right;
 }
 
 .banner {
@@ -58,12 +58,8 @@ ul.navbar-nav {
 }
 
 .jumbotron .container {
-	color: white;
-	text-shadow: 1px 1px 5px black;
-}
-
-.yellow {
-  background: yellow;
+  color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 .smallCallout {
