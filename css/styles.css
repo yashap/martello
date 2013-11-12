@@ -5,16 +5,22 @@
 }
 
 @font-face {
+  font-family: 'Copse';
+  src: url('../fonts/Copse-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'lmsans10';
   src: url('../fonts/lmsans10-regular.otf') format('opentype');
 }
+
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
   background: url(../images/brickwall.png) repeat;
-  font-family: 'lmsans10', Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+  font-family: 'Copse', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .fatPadding {
