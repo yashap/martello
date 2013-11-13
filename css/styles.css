@@ -21,29 +21,34 @@
 -------------------------------------------------- */
 
 .navbar {
-  background: #092921;
-  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
-  background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
-  background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(18,61,50) 100%);
-
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0, rgb(0,0,0)),
-    color-stop(1, rgb(18,61,50))
-  );
+  background: #932629;
+  border-bottom: 3px solid white;
 }
 
 h1, h2, .navbar-brand {
   font-family: 'AlexBrush', 'Brush Script MT', cursive;
 }
 
-ul.navbar-nav {
-  float: right;
+.navbar-nav > li.active {
+  background: #932629;
 }
+
+.icon-bar {
+  background-color: black;
+}
+
+#small-logo {
+  padding: 0;
+  margin: 0;
+  height: 45px;
+  width: 215px;
+  background: url(../images/MES_Logo_small.png) no-repeat;
+  display: inline-block;
+  background-position: top left;
+}
+
+/* Jumbotron styles
+-------------------------------------------------- */
 
 .banner {
   background: url(../images/banner.jpg) no-repeat;
@@ -55,14 +60,6 @@ ul.navbar-nav {
 .jumbotron .container {
   color: white;
   text-shadow: 1px 1px 5px black;
-}
-
-.smallCallout {
-  height: 400px;
-  background: url(../images/kids.jpg) no-repeat;
-  background-position: center;
-  overflow: hidden;
-  box-shadow: 0 0 5px black;
 }
 
 
@@ -93,7 +90,15 @@ body {
 }
 
 .red-text-shadow {
-  text-shadow: 0 0 2px #932629;
+  text-shadow: 0 0 10px #e73c41;
+}
+
+.smallCallout {
+  height: 400px;
+  background: url(../images/kids.jpg) no-repeat;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0 0 5px black;
 }
 
 
