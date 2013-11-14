@@ -154,6 +154,19 @@ background-color:rgba(255,255,255,.5);
   letter-spacing: -1px;
 }
 
+#_math, #_history, #_science, #_english {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#_history-details, #_science-details, #_english-details {
+  display: none;
+}
+
+._hidden {
+  display: none;
+}
+
 
 /* Media Queries
 ------------------------- */
