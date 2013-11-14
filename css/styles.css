@@ -101,6 +101,17 @@ body {
   box-shadow: 0 0 5px black;
 }
 
+.featurette .featurette-heading {
+  margin-top: 0;
+}
+
+.featurette .sub-feature {
+  margin-top: 50px;
+}
+
+.container .featurette-divider {
+margin: 50px 0;
+}
 
 /* Marketing Content
 -------------------------------------------------- */
