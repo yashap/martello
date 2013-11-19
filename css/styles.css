@@ -1,16 +1,13 @@
 /* Fonts
 -------------------------------------------------- */
-
 @font-face {
   font-family: 'AlexBrush';
   src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
 }
-
 @font-face {
   font-family: 'Copse';
   src: url('../fonts/Copse-Regular.ttf') format('truetype');
 }
-
 @font-face {
   font-family: 'lmsans10';
   src: url('../fonts/lmsans10-regular.otf') format('opentype');
@@ -19,24 +16,19 @@
 
 /* Nav styles
 -------------------------------------------------- */
-
 .navbar {
   background: #932629;
   border-bottom: 3px solid white;
 }
-
 h1, h2, .navbar-brand {
   font-family: 'AlexBrush', 'Brush Script MT', cursive;
 }
-
 .navbar-nav > li.active {
   background: #932629;
 }
-
 .icon-bar {
   background-color: black;
 }
-
 #small-logo {
   padding: 0;
   margin: 0;
@@ -49,50 +41,40 @@ h1, h2, .navbar-brand {
 
 /* Jumbotron styles
 -------------------------------------------------- */
-
 .banner {
   background: url(../images/banner.jpg) no-repeat;
   background-position: center;
   height: 320px;
   overflow: hidden;
 }
-
 .jumbotron .container {
   color: white;
   text-shadow: 1px 1px 5px black;
 }
 
-
 /* General body styles
 -------------------------------------------------- */
-
 body {
   padding-top: 50px;
   padding-bottom: 20px;
   background: url(../images/brickwall.png) repeat;
   font-family: 'Copse', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-
 .fatPadding {
   padding-top: 65px;
 }
-
 .fattestPadding {
   padding-top: 90px;
 }
-
 .container {
   padding: 0 25px 0 25px;
 }
-
 .red-text {
   color:#932629;
 }
-
 .red-text-shadow {
   text-shadow: 0 0 10px #e73c41;
 }
-
 .smallCallout {
   height: 400px;
   background: url(../images/kids.jpg) no-repeat;
@@ -100,21 +82,17 @@ body {
   overflow: hidden;
   box-shadow: 0 0 5px black;
 }
-
 .featurette .featurette-heading {
   margin-top: 0;
 }
-
 .featurette .sub-feature {
   margin-top: 50px;
 }
-
 .container .featurette-divider {
-margin: 50px 0;
+  margin: 50px 0;
 }
 .alt-fade {
-
-background-color:rgba(255,255,255,.5);
+  background-color:rgba(255,255,255,.5);
 }
 
 /* Marketing Content
@@ -139,7 +117,6 @@ background-color:rgba(255,255,255,.5);
   margin-right: 10px;
 }
 
-
 /* Featurettes
 ------------------------- */
 
@@ -153,20 +130,9 @@ background-color:rgba(255,255,255,.5);
   line-height: 1;
   letter-spacing: -1px;
 }
-
-#_math, #_history, #_science, #_english {
-  display: inline-block;
-  margin-bottom: 20px;
+.program-details {
+  margin-top: 20px;
 }
-
-#_history-details, #_science-details, #_english-details {
-  display: none;
-}
-
-._hidden {
-  display: none;
-}
-
 
 /* Media Queries
 ------------------------- */
@@ -176,37 +142,32 @@ background-color:rgba(255,255,255,.5);
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-.jumbotron .container h1 {
-  font-size: 2em;
-}
-
+  .jumbotron .container h1 {
+    font-size: 2em;
+  }
   .marketing {
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-.jumbotron .container h1 {
-  font-size: 2.5em;
-}
-
-.featurette-heading {
-    font-size: 50px;
+  .jumbotron .container h1 {
+    font-size: 2.5em;
+  }
+  .featurette-heading {
+     font-size: 50px;
     margin-top: 120px;
-}
-
+  }
+  .tall-col {
+    height: 370px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-.jumbotron .container h1 {
-  font-size: 3em;
-}
-
+  .jumbotron .container h1 {
+    font-size: 3em;
+  }
 }
