@@ -38,6 +38,21 @@ h1, h2, .navbar-brand {
   display: inline-block;
   background-position: top left;
 }
+#logo-img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+}
+.navbar .nav > li#logo-text > a {
+  margin-left: 100px;
+  font-family: 'AlexBrush', 'Brush Script MT', cursive;
+  font-size: 1.7em;
+  color: white !important;
+  text-shadow: 0 0 5px black;
+  height: 100px;
+}
 
 /* Jumbotron styles
 -------------------------------------------------- */
@@ -93,7 +108,7 @@ h3 {
   margin-top: 50px;
 }
 .container .featurette-divider {
-  margin: 60px 0;
+  margin: 55px 0;
 }
 .alt-fade {
   background-color:rgba(255,255,255,.5);
@@ -119,6 +134,10 @@ h3 {
 .marketing .col-md-4 p {
   margin-left: 10px;
   margin-right: 10px;
+}
+.program-blurbs {
+  font-size: 1.15em;
+  margin-bottom: 25px;
 }
 
 /* Featurettes
@@ -155,6 +174,9 @@ h3 {
   .marketing {
     padding-left: 0;
     padding-right: 0;
+  }
+  .navbar .nav > li#logo-text > a {
+  height: 0;
   }
 }
 
