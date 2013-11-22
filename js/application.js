@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
   // Load the default content for each of the 3 program sections
   for (var i=1; i<4; i++) {
     var defaultButton = $("#_default-button-"+i);
