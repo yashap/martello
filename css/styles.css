@@ -96,7 +96,8 @@ h3 {
 }
 .smallCallout {
   height: 400px;
-  background: url(../images/kids.jpg) no-repeat;
+  width: 430px;
+  background: url(../images/about-page.jpg) no-repeat;
   background-position: center;
   overflow: hidden;
   box-shadow: 0 0 5px black;
